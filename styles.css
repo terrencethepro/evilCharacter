@@ -1,50 +1,79 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
+html { 
+  background: url("https://images8.alphacoders.com/605/605599.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body{
-	background-color: lightblue;
-	font-family: 'Permanent Marker', cursive;
-	font-size:20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size:20px;
 }
 
 nav{
-	padding-top:15px;
-	text-align:center;
-	margin:auto;
-	width:50%;
+    padding-top:15px;
+    text-align:center;
+    margin:auto;
+    width:50%;
 }
 
 header{
-	padding-top:15px;
-	text-align:center;
-	margin:auto;
-	width:70%;
+    padding-top:15px;
+    text-align:center;
+    margin:auto;
+    width:70%;
 }
 
 .indexWrapper{
-	display:flex;
-	margin:auto;
-	width:50%;
-	padding-top:30px;
+    display:flex;
+    margin:auto;
+    width:50%;
+    padding-top:30px;
 }
 
 footer{
-	padding-top:170px;
-	text-align:center;
-	margin:auto;
-	width:50%;
+    padding-top:170px;
+    text-align:center;
+    margin:auto;
+    width:50%;
 }
 
 .indexMadaraVideoBox{
-	display:flex;
-	border:solid;
-	width:50%;
-	margin: auto;
-	j
+    background-color:black;
+    display:flex;
+    border:solid;
+    width:50%;
+    margin: auto;
+    
 
 }
 
 .videoParagraph{
-	width:450px;
-	text-align:center;
-	padding-top:50px;
+    width:450px;
+    text-align:center;
+    padding-top:50px;
+    color:white;
+}
+
+.merch{
+    display:flex;
+    justify-content:center;
+}
+
+.billboard-image{
+    width:250px;
+    height:200px;
+}
+
+ul{
+    list-style:none;
+
+}
+
+.about{
+    text-align:center;
+
 }
