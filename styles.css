@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body{
+	background-color: lightblue;
+	font-family: 'Permanent Marker', cursive;
+	font-size:20px;
+}
+
+nav{
+	padding-top:15px;
+	text-align:center;
+	margin:auto;
+	width:50%;
+}
+
+header{
+	padding-top:15px;
+	text-align:center;
+	margin:auto;
+	width:70%;
+}
+
+.indexWrapper{
+	display:flex;
+	margin:auto;
+	width:50%;
+	padding-top:30px;
+}
+
+footer{
+	padding-top:170px;
+	text-align:center;
+	margin:auto;
+	width:50%;
+}
+
+.indexMadaraVideoBox{
+	display:flex;
+	border:solid;
+	width:50%;
+	margin: auto;
+	j
+
+}
+
+.videoParagraph{
+	width:450px;
+	text-align:center;
+	padding-top:50px;
+}
