@@ -8,9 +8,14 @@ html {
   background-size: cover;
 }
 
+li{
+    list-style:none;
+}
+
 body{
     font-family: 'Permanent Marker', cursive;
     font-size:20px;
+    text-shadow: 1px 1px white;
 }
 
 nav{
@@ -25,6 +30,7 @@ header{
     text-align:center;
     margin:auto;
     width:70%;
+    font-size:23px;
 }
 
 .indexWrapper{
@@ -47,8 +53,6 @@ footer{
     border:solid;
     width:50%;
     margin: auto;
-    
-
 }
 
 .videoParagraph{
@@ -56,11 +60,13 @@ footer{
     text-align:center;
     padding-top:50px;
     color:white;
+    font-size:22px;
 }
 
 .merch{
-    display:flex;
-    justify-content:center;
+    margin:0 auto;
+    padding:0px;
+    width:50%;
 }
 
 .billboard-image{
@@ -68,12 +74,19 @@ footer{
     height:200px;
 }
 
-ul{
-    list-style:none;
-
+.merchUl{
+    padding:0px;
+    display:flex;
+    justify-content:center;
 }
 
 .about{
     text-align:center;
+    font-size:30px;
+}
 
+.aboutCaption{
+    color:black;
+    background-color:white;
+    border:solid;
 }
