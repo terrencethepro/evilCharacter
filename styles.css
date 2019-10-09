@@ -55,12 +55,14 @@ footer{
 }
 
 .videoParagraph{
-    width:450px;
+    height:300px;
+    width:500px;
     text-align:center;
-    padding-top:50px;
     color:white;
     font-size:22px;
 }
+
+
 
 .merch{
     margin:0 auto;
