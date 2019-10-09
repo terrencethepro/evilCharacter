@@ -35,8 +35,7 @@ header{
 
 .indexWrapper{
     display:flex;
-    margin:auto;
-    width:50%;
+    justify-content:center;
     padding-top:30px;
 }
 
